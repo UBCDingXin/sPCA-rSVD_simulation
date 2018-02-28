@@ -6,8 +6,7 @@ library(elasticnet)
 library(superpc)
 library(glmnet)
 
-setwd("C:/Users/dingx/ownCloud/Research/STAT548/Fourth paper_Gaby/Simulation")
-source("Sparse PCA via Regularized Low Rank Matrix Approximation ----- rsvd.spca.Rfun.R")
+# setwd()
 Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
 sourceCpp("sPCA-rSVD.cpp")
 
